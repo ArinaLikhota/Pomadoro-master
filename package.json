@@ -3,7 +3,7 @@
   "scripts": {
     "build": "webpack",
     "start": "webpack-dev-server --open",
-    "babel": "./node_modules/.bin/babel src -d dist"
+    "babel": "babel src -d dist"
   },
   "devDependencies": {
     "@babel/cli": "^7.7.0",
@@ -41,5 +41,18 @@
     "jquery": "^3.4.1",
     "jquery-ui-bundle": "^1.12.1-migrate",
     "nodelist-foreach-polyfill": "^1.2.0"
-  }
+  },
+  "description": "`package.json` has all project's dependencies",
+  "version": "1.0.0",
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vladislavva/Pomadoro-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vladislavva/Pomadoro-project/issues"
+  },
+  "homepage": "https://github.com/Vladislavva/Pomadoro-project#readme"
 }
